@@ -11,10 +11,11 @@
 
 body{
     background-color: #f0f0f0;
+    background-image: url("wavegrid.png");
 }
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -109,7 +110,7 @@ p {
 }
 
 .foot {
-    background-color: rgb(125,125,120);
+    background-color: #666666;
     color: white;
     text-align: center;
     height: 50px;
@@ -162,7 +163,9 @@ body {
 .gallery {
     width: 800px;
     margin: 0 auto;
-   
+    position: relative;
+    background-color: #ffffff
+    border: 0.5px solid #cccccc;   
 }
 
 .galleryimage {
@@ -172,85 +175,91 @@ body {
     
 }
 
-#ageraimg {
-    position: absolute;
-    top: 80px;
-    left: 100px;
-}
+/* Gallery Image Styling */
 
-#vulcanimg {
-    position: absolute;
-    top: 80px;
-    left: 500px;
+#ageraimg {
+    float: left;
+    z-index: -1;
 }
 
 #zondaimg {
-    position: absolute;
-    top: 305px;
-    left: 100px;
-}
-
-#gtimg {
-    position: absolute;
-    top: 305px;
-    left: 500px;
+    float: left;
 }
 
 #chironimg {
-    position: absolute;
-    top: 530px;
-    left: 100px;
+    float: left;
 }
 
-#p1img {
-    position: absolute;
-    top: 530px;
-    left: 500px;
-}
-
-.bannerbar {
-    
-    background-color: #4aaaa5;
-    color: #e9e9e9;
-    width: 384px;
-    height: 28px;
-    text-align: center;
-    padding-top: 6px;
-
-}
+/* Banner Styling */
 
 #agera {
     position: absolute;
-    left: 108px;
     top: 250px;
+    left: 22px;
+    width: 384px;
+    height: 23px;
+    text-align: center;
+    padding-top: 3px;
+    background-color: #4aaaa5;
+    color: white;
 }
 
 #vulcan {
     position: absolute;
     top: 250px;
-    left: 508px;
+    left: 422px;
+    width: 384px;
+    height: 23px;
+    text-align: center;
+    padding-top: 3px;
+    background-color: #4aaaa5;
+    color: white;
 }
 
 #zonda {
     position: absolute;
     top: 475px;
-    left: 108px;
+    left: 22px;
+    width: 384px;
+    height: 23px;
+    text-align: center;
+    padding-top: 3px;
+    background-color: #4aaaa5;
+    color: white;
 }
 
-#gt3{
+#gt3 {
     position: absolute;
     top: 475px;
-    left: 508px;
+    left: 422px;
+    width: 384px;
+    height: 23px;
+    text-align: center;
+    padding-top: 3px;
+    background-color: #4aaaa5;
+    color: white;
 }
 
-#chiron{
+#chiron {
     position: absolute;
     top: 700px;
-    left: 108px;
+    left: 22px;
+    width: 384px;
+    height: 23px;
+    text-align: center;
+    padding-top: 3px;
+    background-color: #4aaaa5;
+    color: white;
 }
 
 #p1 {
     position: absolute;
     top: 700px;
-    left: 508px;
+    left: 422px;
+    width: 384px;
+    height: 23px;
+    text-align: center;
+    padding-top: 3px;
+    background-color: #4aaaa5;
+    color: white;
 }
